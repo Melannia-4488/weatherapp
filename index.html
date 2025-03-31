@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- importing google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Main-container -->
@@ -21,6 +26,35 @@
             <h4 class="country-name">Iran</h4>
           </div>
           <h5 class="current-data-txt regular-txt">thirsday,14 january</h5>
+        </div>
+        <!-- weather sumary -->
+        <div class="weather-sumary-container">
+          <img
+            class="weather-sumary-img"
+            src="assets/images/weather/clouds.svg"
+            alt="cloudy-weather"
+          />
+          <div class="weather-sumary-info">
+            <h1 class="temp-text">29°C</h1>
+            <h3 class="condition-text regular-txt">Clouds</h3>
+          </div>
+        </div>
+        <!-- humidity section -->
+        <div class="weather-condition-container">
+          <div class="condition-info">
+            <span class="material-symbols-outlined"> water_drop </span>
+            <div class="condition-item">
+              <h5 class="condition-txt regular-txt">humidity</h5>
+              <h5 class="condition-txt-value">55%</h5>
+            </div>
+          </div>
+          <div class="condition-info">
+            <span class="material-symbols-outlined"> air </span>
+            <div class="condition-item">
+              <h5 class="condition-txt regular-txt">wind speed</h5>
+              <h5 class="condition-txt-value">2.5 m/s</h5>
+            </div>
+          </div>
         </div>
       </section>
     </main>
