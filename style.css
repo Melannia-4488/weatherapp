@@ -46,3 +46,20 @@ body::before {
   border-radius: 12px;
   backdrop-filter: blur(100px);
 }
+
+/* Header input container */
+.input-container {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+/* city input container*/
+.city-input {
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px 16px;
+  margin: 15px 0 0 0;
+  border: 3px solid transparent;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding-right: 50px;
+}
