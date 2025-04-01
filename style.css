@@ -80,3 +80,55 @@ body::before {
   border: none;
   cursor: pointer;
 }
+
+/* location-data-container */
+.location-data-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* weather info section */
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.weather-sumary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-sumary-img {
+  width: 120px;
+  height: 120px;
+}
+
+.weather-sumary-info {
+  text-align: end;
+}
+
+/* weather-condition-container */
+.weather-condition-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.condition-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.condition-info span {
+  font-size: 30px;
+}
