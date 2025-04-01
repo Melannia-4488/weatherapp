@@ -63,3 +63,20 @@ body::before {
   background-color: rgba(0, 0, 0, 0.15);
   padding-right: 50px;
 }
+
+.city-input::placeholder {
+  color: #fff;
+}
+
+/* search btn */
+.btn {
+  text-decoration: none;
+  position: absolute;
+  right: 16px;
+  top: 22px;
+  color: #fff;
+  background: transparent;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
