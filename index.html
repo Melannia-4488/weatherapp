@@ -17,10 +17,12 @@
       <!-- Header -->
       <header class="input-container">
         <input type="text" class="city-input" placeholder="Search city Name" />
-        <a href="" class="btn"><span class=""> search </span></a>
+        <a href="" class="btn"
+          ><span class="material-symbols-outlined"> search </span></a
+        >
       </header>
       <!-- weather-info-section -->
-      <section class="weather-info">
+      <section class="weather-info" style="display: none">
         <div class="location-data-container">
           <div class="location">
             <span class=""> location_on </span>
@@ -36,24 +38,26 @@
             alt="cloudy-weather"
           />
           <div class="weather-sumary-info">
-            <h1 class="temp-text">29°C</h1>
+            <h1 class="temp-text regular-txt">29°C</h1>
             <h3 class="condition-text regular-txt">Clouds</h3>
           </div>
         </div>
         <!-- humidity section -->
         <div class="weather-condition-container">
           <div class="condition-info">
-            <span class="material-symbols-outlined"> water_drop </span>
+            <span class="material-symbols-outlined regular-txt">
+              water_drop
+            </span>
             <div class="condition-item">
               <h5 class="condition-txt regular-txt">humidity</h5>
-              <h5 class="condition-txt-value">55%</h5>
+              <h5 class="condition-txt-value regular-txt">55%</h5>
             </div>
           </div>
           <div class="condition-info">
-            <span class="material-symbols-outlined"> air </span>
+            <span class="material-symbols-outlined regular-txt"> air </span>
             <div class="condition-item">
               <h5 class="condition-txt regular-txt">wind speed</h5>
-              <h5 class="condition-txt-value">2.5 m/s</h5>
+              <h5 class="condition-txt-value regular-txt">2.5 m/s</h5>
             </div>
           </div>
         </div>
@@ -95,6 +99,33 @@
             />
             <h5 class="forecast-item-temp">29°C</h5>
           </div>
+        </div>
+      </section>
+      <section class="search-city section-message">
+        <img
+          class="message-img"
+          src="assets/weatherapp/search-city.png"
+          alt="search-city"
+        />
+        <div class="">
+          <h1 class="regular-txt">Search City</h1>
+          <h4 class="regular-txt">
+            Find out the weather conditions of the city
+          </h4>
+        </div>
+      </section>
+
+      <section class="not-found section-message" style="display: none">
+        <img
+          class="message-img"
+          src="assets/weatherapp/not-found.png"
+          alt="search-city"
+        />
+        <div class="">
+          <h1 class="regular-txt">Search City</h1>
+          <h4 class="regular-txt">
+            Find out the weather conditions of the city
+          </h4>
         </div>
       </section>
     </main>
